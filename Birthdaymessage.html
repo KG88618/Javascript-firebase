@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    
+
+    
+    </head>
+    <body>
+        
+        <script>
+
+            const user {
+                name :"Hiya"
+                dob: "2016-01-25"
+            }
+         // set the bithday date(change the date accordingly)
+         const bithday =new Date('YYY -MM-DD');
+             
+         function checkBirthday(user) {
+            const today = new Date();
+            const birthday = new Date (user.dob);
+         }
+
+         birthday .setfullYear(today.getFullYear());
+
+         if(birthday < today.setHours(0  ,0 ,0,0)){
+            <birthday.setfullYear(birthday.getFullYear(+1));
+         
+         }
+
+         const difftime = birthday - new Date();
+         const daysleft = Math.ceil(difftime / (1000 * 60 * 60 * 24));
+         let message = "";
+         if (daysleft===0){
+            message = 'Happy Birthday,${user.name}!'
+         } else {
+            message = '${daysLeft} day${daysLeft===1 ? "" : "s"} left until your birthday!';
+         }
+         // Show message in the page
+
+         document.getElementById("birthdaymessage").innerText =message;
+        
+        checkBirthday(user);
+           
+
+
+            
+            
+    
+
+
+
